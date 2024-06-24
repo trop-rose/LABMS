@@ -1,0 +1,11 @@
+name: APIM
+summary: This is an APIM deployment using Bicep.
+description: Deploys an APIM using the Consumption Sku.
+templatePath: main.bicep
+parameters:
+- id: name
+  name: Name
+  description: 'Name of the Apim'
+  type: string
+  required: true
+runner: Bicep
